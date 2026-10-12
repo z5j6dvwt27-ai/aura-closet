@@ -1,0 +1,10 @@
+AURA CLOSET · Guía rápida para iPad/iPhone
+
+1. Crea gratis un repositorio público en https://github.com/new llamado aura-closet.
+2. En el repositorio usa Add file > Upload files.
+3. Descomprime este ZIP en Archivos del iPad; selecciona los 7 archivos principales de la carpeta resultante y súbelos a la RAÍZ del repositorio (NO subas solo el ZIP, ni la carpeta contenedora). Puedes incluir estas instrucciones si quieres.
+4. Pulsa Commit changes.
+5. Ve a Settings > Pages > Source: Deploy from a branch > main > /(root) > Save.
+6. Abre https://TU-USUARIO.github.io/aura-closet/ y en Safari: Compartir > Añadir a pantalla de inicio > Abrir como app web > Añadir.
+
+Recuerda: GitHub contiene solo código público, nunca subas tus fotos ni los archivos JSON de copias de seguridad. Las prendas que añadas se guardarán en ese dispositivo. Exporta una copia periódicamente desde Ajustes.

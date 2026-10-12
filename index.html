@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#171e1c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AURA CLOSET">
+  <meta name="description" content="Tu armario inteligente para cada momento de tu vida. Gratis, privado y sin cuentas.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" href="./icon-192.png">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>AURA CLOSET · Tu estilo, a tu manera</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark">A<span>✦</span></div><div class="brand-text"><b>AURA</b><span>CLOSET</span></div></div>
+    <div class="side-overline">TU ESPACIO</div>
+    <nav id="side-nav" aria-label="Navegación principal"></nav>
+    <div class="sidebar-bottom">
+      <div class="side-note"><span>✦</span><div><b>Tu estilo evoluciona.</b><small>Un look a la vez.</small></div></div>
+      <div class="private-note">🔒 Fotos guardadas en tu dispositivo</div>
+    </div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar">
+      <div class="mobile-brand"><span class="mobile-brand-icon">A✦</span><b>AURA <span>CLOSET</span></b></div>
+      <div class="breadcrumb" id="breadcrumb">TU ESPACIO <span>/</span> INICIO</div>
+      <div class="top-actions"><span class="clock-badge" id="today-badge"></span><button class="mobile-settings" data-nav="ajustes" aria-label="Abrir ajustes">⚙</button><button class="round-add" data-action="add-garment" aria-label="Añadir prenda">＋</button></div>
+    </header>
+    <main class="main-content" id="app" aria-live="polite"></main>
+  </div>
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Navegación móvil"></nav>
+</div>
+<div id="modal-root"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="./app.js" defer></script>
+</body>
+</html>
