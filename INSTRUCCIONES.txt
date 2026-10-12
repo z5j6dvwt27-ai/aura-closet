@@ -1,10 +1,15 @@
-AURA CLOSET · Guía rápida para iPad/iPhone
+AURA CLOSET 1.1 — ACTUALIZACION SIN PERDER TUS PRENDAS
 
-1. Crea gratis un repositorio público en https://github.com/new llamado aura-closet.
-2. En el repositorio usa Add file > Upload files.
-3. Descomprime este ZIP en Archivos del iPad; selecciona los 7 archivos principales de la carpeta resultante y súbelos a la RAÍZ del repositorio (NO subas solo el ZIP, ni la carpeta contenedora). Puedes incluir estas instrucciones si quieres.
-4. Pulsa Commit changes.
-5. Ve a Settings > Pages > Source: Deploy from a branch > main > /(root) > Save.
-6. Abre https://TU-USUARIO.github.io/aura-closet/ y en Safari: Compartir > Añadir a pantalla de inicio > Abrir como app web > Añadir.
+1. ABRE LA APP EN TU IPAD y entra a AJUSTES.
+2. Pulsa EXPORTAR ARMARIO. Guarda el JSON como respaldo en Archivos/iCloud.
+3. Abre github.com/z5j6dvwt27-ai/aura-closet en tu navegador.
+4. En la pestaña Code usa Add file > Upload files.
+5. Selecciona los archivos index.html, app.js, style.css, sw.js, manifest.webmanifest y los dos iconos; sube los archivos, NO el ZIP.
+6. GitHub permite agregar archivos nuevos, pero puede rechazar nombres duplicados desde Upload files. Si los rechaza, actualiza los archivos de texto individualmente usando el lapiz (Edit this file) y pega el contenido de cada archivo de este paquete.
+7. Commit changes. GitHub Pages publicara la actualizacion tras unos minutos.
+8. Cierra y vuelve a abrir AURA CLOSET; si sigue la version vieja, recarga desde el navegador.
+9. Revisa que tus prendas sigan presentes. Si faltan, usa AJUSTES > IMPORTAR COPIA.
 
-Recuerda: GitHub contiene solo código público, nunca subas tus fotos ni los archivos JSON de copias de seguridad. Las prendas que añadas se guardarán en ese dispositivo. Exporta una copia periódicamente desde Ajustes.
+NOTA: Los datos del armario se guardan en el dispositivo, NO se sincronizan con GitHub. La version 1.1 no cambia el nombre de la base de datos ni elimina registros.
+NUEVO: Marca/talla/precio, prendas favoritas, combinador por clima manual, consejos locales, registro de usos, semana visual y resumen de armario.
+GRATIS: No usa modelos de IA de pago ni servicios de sincronizacion.
